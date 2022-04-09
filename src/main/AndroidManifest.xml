@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.easygo"
+    tools:ignore="ExtraText">
+    package="EasyGo.com.Splash">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon4"
+
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon4"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".Splash"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".Keeper"
+            android:exported="false" />
+        <activity
+            android:name=".StudentHis"
+            android:exported="false" />
+        <activity
+            android:name=".VerifHis"
+            android:exported="false" />
+        <activity
+            android:name=".Verifier1"
+            android:exported="false" />
+        <activity
+            android:name=".Verifier"
+            android:exported="false" />
+        <activity
+            android:name=".Student1"
+            android:exported="false" />
+        <activity
+            android:name=".Student"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3_3"
+            android:exported="false"
+            android:label="EasyGo"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3_2"
+            android:exported="false"
+            android:label="EasyGo"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3_1"
+            android:exported="false"
+            android:label="EasyGo"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="EasyGo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EasyGo</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="Sign_In">Welcome User!</string>
+    <string name="unique_id">Unique ID</string>
+    <string name="note_for_student_id_start_with_s_for_keeper_start_with_k_and_same_with_verifier_and_admin_also_and_if_you_phase_any_problem_then_please_contact_to_admin">Note:- For student,Id start with S. For keeper,start with K. And same with Verifier and Admin also. And if you phase any problem then please contact to admin.</string>
+</resources>
