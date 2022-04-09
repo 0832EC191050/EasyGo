@@ -1,0 +1,166 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.easygo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\EasyGo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\EasyGo\app\src\main\AndroidManifest.xml
+10    package="EasyGo.com.Splash">
+11    <application
+11-->D:\EasyGo\app\src\main\AndroidManifest.xml:8:5-75:19
+12        android:allowBackup="true"
+12-->D:\EasyGo\app\src\main\AndroidManifest.xml:9:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\shubh\.gradle\caches\transforms-3\d79cd730aff89e16bbe6bbee05f6ceb1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/icon4"
+15-->D:\EasyGo\app\src\main\AndroidManifest.xml:10:9-39
+16        android:label="@string/app_name"
+16-->D:\EasyGo\app\src\main\AndroidManifest.xml:12:9-41
+17        android:roundIcon="@drawable/icon4"
+17-->D:\EasyGo\app\src\main\AndroidManifest.xml:13:9-44
+18        android:supportsRtl="true"
+18-->D:\EasyGo\app\src\main\AndroidManifest.xml:14:9-35
+19        android:theme="@style/Theme.AppCompat.NoActionBar" >
+19-->D:\EasyGo\app\src\main\AndroidManifest.xml:15:9-59
+20        <activity
+20-->D:\EasyGo\app\src\main\AndroidManifest.xml:16:9-24:20
+21            android:name="com.example.easygo.Splash"
+21-->D:\EasyGo\app\src\main\AndroidManifest.xml:17:13-35
+22            android:exported="true" >
+22-->D:\EasyGo\app\src\main\AndroidManifest.xml:18:13-36
+23            <intent-filter>
+23-->D:\EasyGo\app\src\main\AndroidManifest.xml:19:9-23:25
+24                <action android:name="android.intent.action.MAIN" />
+24-->D:\EasyGo\app\src\main\AndroidManifest.xml:20:13-65
+24-->D:\EasyGo\app\src\main\AndroidManifest.xml:20:21-62
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->D:\EasyGo\app\src\main\AndroidManifest.xml:22:13-73
+26-->D:\EasyGo\app\src\main\AndroidManifest.xml:22:23-70
+27            </intent-filter>
+28        </activity>
+29        <activity
+29-->D:\EasyGo\app\src\main\AndroidManifest.xml:25:9-27:40
+30            android:name="com.example.easygo.Keeper"
+30-->D:\EasyGo\app\src\main\AndroidManifest.xml:26:13-35
+31            android:exported="false" />
+31-->D:\EasyGo\app\src\main\AndroidManifest.xml:27:13-37
+32        <activity
+32-->D:\EasyGo\app\src\main\AndroidManifest.xml:28:9-30:40
+33            android:name="com.example.easygo.StudentHis"
+33-->D:\EasyGo\app\src\main\AndroidManifest.xml:29:13-39
+34            android:exported="false" />
+34-->D:\EasyGo\app\src\main\AndroidManifest.xml:30:13-37
+35        <activity
+35-->D:\EasyGo\app\src\main\AndroidManifest.xml:31:9-33:40
+36            android:name="com.example.easygo.VerifHis"
+36-->D:\EasyGo\app\src\main\AndroidManifest.xml:32:13-37
+37            android:exported="false" />
+37-->D:\EasyGo\app\src\main\AndroidManifest.xml:33:13-37
+38        <activity
+38-->D:\EasyGo\app\src\main\AndroidManifest.xml:34:9-36:40
+39            android:name="com.example.easygo.Verifier1"
+39-->D:\EasyGo\app\src\main\AndroidManifest.xml:35:13-38
+40            android:exported="false" />
+40-->D:\EasyGo\app\src\main\AndroidManifest.xml:36:13-37
+41        <activity
+41-->D:\EasyGo\app\src\main\AndroidManifest.xml:37:9-39:40
+42            android:name="com.example.easygo.Verifier"
+42-->D:\EasyGo\app\src\main\AndroidManifest.xml:38:13-37
+43            android:exported="false" />
+43-->D:\EasyGo\app\src\main\AndroidManifest.xml:39:13-37
+44        <activity
+44-->D:\EasyGo\app\src\main\AndroidManifest.xml:40:9-42:40
+45            android:name="com.example.easygo.Student1"
+45-->D:\EasyGo\app\src\main\AndroidManifest.xml:41:13-37
+46            android:exported="false" />
+46-->D:\EasyGo\app\src\main\AndroidManifest.xml:42:13-37
+47        <activity
+47-->D:\EasyGo\app\src\main\AndroidManifest.xml:43:9-45:40
+48            android:name="com.example.easygo.Student"
+48-->D:\EasyGo\app\src\main\AndroidManifest.xml:44:13-36
+49            android:exported="false" />
+49-->D:\EasyGo\app\src\main\AndroidManifest.xml:45:13-37
+50        <activity
+50-->D:\EasyGo\app\src\main\AndroidManifest.xml:46:9-50:59
+51            android:name="com.example.easygo.MainActivity3_3"
+51-->D:\EasyGo\app\src\main\AndroidManifest.xml:47:13-44
+52            android:exported="false"
+52-->D:\EasyGo\app\src\main\AndroidManifest.xml:48:13-37
+53            android:label="EasyGo"
+53-->D:\EasyGo\app\src\main\AndroidManifest.xml:49:13-35
+54            android:parentActivityName="com.example.easygo.MainActivity2" />
+54-->D:\EasyGo\app\src\main\AndroidManifest.xml:50:13-56
+55        <activity
+55-->D:\EasyGo\app\src\main\AndroidManifest.xml:51:9-55:59
+56            android:name="com.example.easygo.MainActivity3_2"
+56-->D:\EasyGo\app\src\main\AndroidManifest.xml:52:13-44
+57            android:exported="false"
+57-->D:\EasyGo\app\src\main\AndroidManifest.xml:53:13-37
+58            android:label="EasyGo"
+58-->D:\EasyGo\app\src\main\AndroidManifest.xml:54:13-35
+59            android:parentActivityName="com.example.easygo.MainActivity2" />
+59-->D:\EasyGo\app\src\main\AndroidManifest.xml:55:13-56
+60        <activity
+60-->D:\EasyGo\app\src\main\AndroidManifest.xml:56:9-60:59
+61            android:name="com.example.easygo.MainActivity3_1"
+61-->D:\EasyGo\app\src\main\AndroidManifest.xml:57:13-44
+62            android:exported="false"
+62-->D:\EasyGo\app\src\main\AndroidManifest.xml:58:13-37
+63            android:label="EasyGo"
+63-->D:\EasyGo\app\src\main\AndroidManifest.xml:59:13-35
+64            android:parentActivityName="com.example.easygo.MainActivity2" />
+64-->D:\EasyGo\app\src\main\AndroidManifest.xml:60:13-56
+65        <activity
+65-->D:\EasyGo\app\src\main\AndroidManifest.xml:61:9-65:58
+66            android:name="com.example.easygo.MainActivity2"
+66-->D:\EasyGo\app\src\main\AndroidManifest.xml:62:13-42
+67            android:exported="false"
+67-->D:\EasyGo\app\src\main\AndroidManifest.xml:63:13-37
+68            android:label="EasyGo"
+68-->D:\EasyGo\app\src\main\AndroidManifest.xml:64:13-35
+69            android:parentActivityName="com.example.easygo.MainActivity" />
+69-->D:\EasyGo\app\src\main\AndroidManifest.xml:65:13-55
+70        <activity
+70-->D:\EasyGo\app\src\main\AndroidManifest.xml:66:9-68:39
+71            android:name="com.example.easygo.MainActivity"
+71-->D:\EasyGo\app\src\main\AndroidManifest.xml:67:13-41
+72            android:exported="false" />
+72-->D:\EasyGo\app\src\main\AndroidManifest.xml:68:13-37
+73
+74        <meta-data
+74-->D:\EasyGo\app\src\main\AndroidManifest.xml:70:9-72:57
+75            android:name="preloaded_fonts"
+75-->D:\EasyGo\app\src\main\AndroidManifest.xml:71:13-43
+76            android:resource="@array/preloaded_fonts" />
+76-->D:\EasyGo\app\src\main\AndroidManifest.xml:72:13-54
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+80            android:authorities="com.example.easygo.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shubh\.gradle\caches\transforms-3\7a8fe7a0d27e6111d8f26a88e3f3f946\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shubh\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shubh\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shubh\.gradle\caches\transforms-3\7c2b991ffee7d4db452bfe70f5605b71\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>
